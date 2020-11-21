@@ -50,8 +50,12 @@ ul{
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
-    display: inline-block;
     margin: auto;  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Alatsi', sans-serif;
+  font-size: x-large;
 }
   
   .btn:hover {
@@ -86,3 +90,4 @@ li a:hover {
 .left {
     float: right;
 }
+

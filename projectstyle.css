@@ -1,6 +1,38 @@
 h1{
     color: darkslateblue;
     font-family: 'Alatsi', sans-serif;
-
     
 }
+
+li{
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+  }
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 2vw;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+a:hover{
+    background-color: darkslateblue;
+  }
+
+nav{
+    width: 100vw;
+    background-color: gray;
+  }
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  

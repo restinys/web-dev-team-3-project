@@ -1,3 +1,64 @@
+
+h1{
+    color: darkslateblue;
+    font-family: 'Alatsi', sans-serif;
+    
+}
+
+li{
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+  }
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 2vw;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+a:hover{
+    background-color:#eee;
+  }
+
+nav{
+    width: 100vw;
+    background-color: gray;
+  }
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  .carousel{
+    background: #BFC9CA;
+
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; 
+}
+
+.btn {
+    background-color: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin: auto;  
+}
+  
+  .btn:hover {
+      background: #eee;}
+  
+/* all shows css */
+
 ul {
     list-style-type: none;
     margin: 0;

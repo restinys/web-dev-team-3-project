@@ -19,7 +19,7 @@ a{
   }
 
 a:hover{
-    background-color: darkslateblue;
+    background-color:#eee;
   }
 
 nav{
@@ -35,4 +35,24 @@ ul{
 
   }
 
+  .carousel{
+    background: #BFC9CA;
+
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; 
+}
+
+.btn {
+    background-color: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin: auto;  
+}
+  
+  .btn:hover {
+      background: #eee;}
   

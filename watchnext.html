@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Watch Next</title>
+        <link rel="stylesheet" href="watchnext.css">
+        <script src="watchnext.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+
+    <header>
+
+        <h1> WATCHNEXT </h1>
+        <nav>
+         <ul>
+           <li> 
+             <a href=""> Home </a>
+           </li>
+           <li>
+              <a href=""> All Shows </a>
+           </li>
+           <li>
+             <a href=""> Quiz </a>
+           </li>
+         </ul>
+       </nav>
+
+     </header>
+
+    <div class="filteroptions">
+        <button class="btn active" onclick="filterSelection('all')">All Genres</button>
+        <button class="btn" onclick="filterSelection('action')"> Action</button>
+        <button class="btn" onclick="filterSelection('animation')"> Animation</button>
+        <button class="btn" onclick="filterSelection('comedy')"> Comedy</button>
+        <button class="btn" onclick="filterSelection('crime')"> Crime</button>
+        <button class="btn" onclick="filterSelection('drama')"> Drama</button>
+        <button class="btn" onclick="filterSelection('documentary')"> Documentary</button>
+        <button class="btn" onclick="filterSelection('familyfriendly')"> Family Friendly</button>
+        <button class="btn" onclick="filterSelection('fantasy')"> Fantasy</button>
+        <button class="btn" onclick="filterSelection('horror')"> Horror</button>
+        <button class="btn" onclick="filterSelection('thriller')"> Thriller</button>
+        <button class="btn" onclick="filterSelection('romcom')"> RomCom</button>
+      </div>
+      
+      <div class="container">
+        <div class="filterDiv action fantasy" id="witcher">
+          
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front"></div>
+                  <div class="flip-card-back"><h3>The Witcher</h3>
+                    <h6>Geralt of Rivia, a solitary monster hunter, 
+                    struggles to find his place in a world where people often prove more wicked than beasts.</h6>
+                    <a href="https://www.imdb.com/title/tt5180504/" class="imdb"><img src="./imdb.png"></a>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+        <div class="filterDiv animation familyfriendly" id="coco">
+            
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front"></div>
+                  <div class="flip-card-back"><h3>Coco</h3>
+                    <h6>Aspiring musician Miguel, confronted with his family's ancestral ban on music,
+                       enters the Land of the Dead to find his great-great-grandfather, a legendary singer.</h6>
+                    <a href="https://www.imdb.com/title/tt2380307/?ref_=fn_al_tt_1" class="imdb"><img src="./imdb.png"></a>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+        <div class="filterDiv animation familyfriendly" id="lion">
+            
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front"></div>
+                  <div class="flip-card-back"><h3>The Lion King</h3>
+                    <h6>After the murder of his father, a young lion prince flees his 
+                        kingdom only to learn the true meaning of responsibility and bravery.</h6>
+                    <a href="https://www.imdb.com/title/tt6105098/?ref_=nv_sr_srsg_0" class="imdb"><img src="./imdb.png"></a>
+                  </div>
+                </div>
+              </div>
+            
+        </div>
+        <div class="filterDiv comedy" id="office">
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front"></div>
+              <div class="flip-card-back"><h3>The Office</h3>
+                <h6>A mockumentary on a group of typical office workers, where the workday 
+                    consists of ego clashes, inappropriate behavior, and tedium.</h6>
+                <a href="https://www.imdb.com/title/tt0386676/?ref_=fn_al_tt_1" class="imdb"><img src="./imdb.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv drama" id="hand">
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front"></div>
+              <div class="flip-card-back"><h3>Handmaid's Tale</h3>
+                <h6>Set in a dystopian future, a woman is forced to live as a concubine under a fundamentalist theocratic dictatorship.</h6>
+                <a href="https://www.imdb.com/title/tt5834204/?ref_=nv_sr_srsg_0" class="imdb"><img src="./imdb.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv drama romcom" id="gg">
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front"></div>
+              <div class="flip-card-back"><h3>Gossip Girl</h3>
+                <h6>Privileged teens living on the Upper East Side of New York can hide no secret from the ruthless blogger who is always watching.</h6>
+                <a href="https://www.imdb.com/title/tt0397442/?ref_=nv_sr_srsg_3" class="imdb"><img src="./imdb.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv horror thriller" id="ahs">
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front"></div>
+              <div class="flip-card-back"><h3>American Horror Story</h3>
+                <h6>Behind the scenes with the ''Freaks'' of American Horror Story as they tell their life stories, 
+                    what they have gone through, and how it has impacted them.</h6>
+                <a href="https://www.imdb.com/title/tt4255166/?ref_=nv_sr_srsg_4" class="imdb"><img src="./imdb.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv romcom" id="someone">
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front"></div>
+              <div class="flip-card-back"><h3>Someone Great</h3>
+                <h6>After a devastating break up on the eve of her cross-country move, Jenny enjoys one last NYC adventure with her two best pals. 
+                    A romantic comedy about love, loss, growth and the everlasting bond of female friendship.</h6>
+                <a href="https://www.imdb.com/title/tt8075260/?ref_=nv_sr_srsg_0" class="imdb"><img src="./imdb.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv documentary" id="planet">
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front"></div>
+              <div class="flip-card-back"><h3>Our Planet</h3>
+                <h6>Documentary series focusing on the breadth of the diversity of habitats around the world, from the remote Arctic wilderness and 
+                    mysterious deep oceans to the vast landscapes of Africa and diverse jungles of South America.
+                </h6>
+                <a href="https://www.imdb.com/title/tt9253866/?ref_=nv_sr_srsg_3" class="imdb"><img src="./imdb.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv crime" id="bad">
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front"></div>
+              <div class="flip-card-back"><h3>Breaking Bad</h3>
+                <h6>A high school chemistry teacher diagnosed with inoperable lung cancer turns to 
+                    manufacturing and selling methamphetamine in order to secure his family's future.
+                </h6>
+                <a href="https://www.imdb.com/title/tt0903747/?ref_=nv_sr_srsg_0" class="imdb"><img src="./imdb.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+
+</body>
+</html>

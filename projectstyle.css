@@ -3,7 +3,7 @@ h1{
     color: darkslateblue;
     font-family: 'Alatsi', sans-serif;
     font-size: 50px;
-    
+    padding: 0.5%
 }
 
 h2{
@@ -34,7 +34,7 @@ a:hover{
   }
 
 nav{
-    width: 100vw;
+    width: 100%;
     background-color: gray;
   }
 

@@ -1,0 +1,364 @@
+
+h1{
+    color: darkslateblue;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 50px;
+    padding: 0.5%
+}
+
+h2{
+  font-family: 'Alatsi', sans-serif;
+  text-align: center;
+  padding: 3%;
+  
+}
+
+li{
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 2vw;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 20px;
+  }
+
+a:hover{
+    background-color:#eee;
+  }
+
+nav{
+    width: 100%;
+    background-color: gray;
+  }
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  .carousel{
+    background: #BFC9CA;
+
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; 
+}
+
+.btn {
+    background-color: gray;
+    padding: 14px 28px;
+    font-size: 50px;
+    cursor: pointer;
+    margin: auto;  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-family: 'Alatsi', sans-serif;
+}
+  
+.btn:hover {
+      background: #eee;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-right:30px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+/* all shows css */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Alatsi', sans-serif;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+.left {
+    float: right;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 270px;
+    height: 360px;
+    border: 1px solid #f1f1f1;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 270px;
+    height: 360px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 270px;
+    height: 360px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-back {
+    background-color:white;
+    opacity: 0.7;
+    transform: rotateY(180deg);
+    line-height: 1.6;
+  }
+h3 {
+    font-size: 30px;
+    font-family: 'Alatsi', sans-serif;
+    color: #000;
+    line-height: 1.2;
+  }
+  
+h6 {
+    font-size: 17px;
+    font-family: 'Alatsi', sans-serif;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    line-height: 1.2;
+  
+  }
+  br {
+    line-height: 0.2;
+  }
+  
+  img { 
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 60px;
+    padding-left: 100px;
+  }
+  
+  .imdb:hover, .imdb:active {
+    background-image: url("./imdb.png");
+  }
+
+.container-fluid {
+  padding:0;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+#witcher {
+    background-image: url("img/tw.jpg");
+    width: 270px;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+
+  }
+  #coco {
+    background-image: url("img/c.jpg");
+    width: 270px;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+
+  }
+  #lion {
+    background-image: url("img/lk.jpg");
+    width: 270px;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+  }
+  #planet {
+    background-image: url("img/op.jpg");
+    width: 270px;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+  }
+  #office {
+    background-image: url("img/to.jpg");
+    width: 270px;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+  }
+  #hand {
+    background-image: url("img/ht.jpg");
+    width: 270px;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+  }
+  #gg {
+    background-image: url("img/gg.jpg");
+    width: 270px;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+  }
+  #ahs {
+    background-image: url("img/ahs.jpg");
+    width: 270px;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+  }
+  #someone {
+    background-image: url("img/sg.jpg");
+    width: 270px;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+  }
+  #bad {
+    background-image: url("img/bb.jpg");
+    width: 270px;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+  }

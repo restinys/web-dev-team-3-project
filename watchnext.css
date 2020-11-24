@@ -267,5 +267,5 @@ img {
 }
 
 .imdb:hover, .imdb:active {
-  background-image: url("./imdb.png");
+  background-image: url("img/imdb.png");
 }
